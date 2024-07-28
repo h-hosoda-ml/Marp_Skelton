@@ -1,0 +1,10 @@
+# Env
+.env
+.venv
+
+# cache
+.DS_Store
+__pycache__/
+
+# Data
+marp-themes/static/*.jpeg
