@@ -1,0 +1,83 @@
+/* @theme summary */
+
+@import "gaia";
+
+/* 基本 */
+section {
+    font-size: 30px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 50px;
+    flex: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* タイトルページ */
+section.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.title h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+section.title h2 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/* 本文 */
+section.body {
+    font-size: 36px;
+}
+
+/* 本文中のサブタイトル */
+section.body h1 {
+    background-color: powderblue;
+    color: gray;
+    font-size: 55px;
+    padding-left: 10px;
+}
+
+/* 本文中のリスト要素 */
+section.body ul {
+    margin-top: 0px;
+}
+
+/* 本文中の図キャプション*/
+section.body h3 {
+    font-size: 22px;
+    font-style: normal;
+    text-align: center;
+}
+
+/* 画像の中央揃え */
+section.body img[alt~="center"] {
+    display: block;
+    margin: 15px auto 0 auto;
+    caption-side: inherit;
+}
+
+
+/* ヘッダー */
+
+header {
+    text-align: start;
+    font-size: medium;
+}
+
+footer {
+    text-align: start;
+    font-size: medium;
+}
+
+/* 強調文字 */
+strong,
+b {
+    color: red;
+}
